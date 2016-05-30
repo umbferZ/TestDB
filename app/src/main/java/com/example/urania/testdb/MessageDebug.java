@@ -13,7 +13,7 @@ import android.widget.Toast;
  */
 public class MessageDebug {
     private static boolean isDebug = true;
-    private static String debuger = "urania";
+    private static String debuger = "urania2";
 
     public static void message(Context context, String message) {
         if (isDebug) {
