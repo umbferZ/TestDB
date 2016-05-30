@@ -13,11 +13,11 @@ import android.widget.Toast;
  */
 public class MessageDebug {
     private static boolean isDebug = true;
-    private static String debuger = "urania2";
+    private static String debuger = "urania";
 
     public static void message(Context context, String message) {
         if (isDebug) {
-            Toast.makeText(context, message+"\naggiornato da urania", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, message+"\naggiornato da urania2", Toast.LENGTH_LONG).show();
             Log.v(debuger, message);
         }
     }
