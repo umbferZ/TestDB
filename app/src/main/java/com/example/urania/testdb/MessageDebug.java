@@ -17,7 +17,7 @@ public class MessageDebug {
 
     public static void message(Context context, String message) {
         if (isDebug) {
-            Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, message+"\naggiornato da urania", Toast.LENGTH_LONG).show();
             Log.v(debuger, message);
         }
     }
